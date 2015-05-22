@@ -15,9 +15,8 @@ function gulpH5Manifest() {
 	    });
         }
 
-        if (file.isBuffer()) {
-            file.contents = new Buffer(appManifest());
-        }
+        file.contents = new Buffer(appManifest());
+        
         this.push(file);
 
         return cb();
