@@ -8,9 +8,6 @@ var appManifest =require('app-manifest');
 function gulpH5Manifest() {
 
     var stream = through.obj(function(file, enc, cb) {
-        var file = new gutil.File({
-            cwd: __dirname,
-        });
         file.contents = new Buffer(appManifest());
 
         this.push(file);
