@@ -20,9 +20,9 @@
     "url": "https://github.com/h5-static/gulp-h-manifest/issues"
   },
   "homepage": "https://github.com/h5-static/gulp-h-manifest",
-   "dependencies": {
-    "manifest-generator": "^1.0.0",
+  "dependencies": {
     "gulp-util": "^3.0.4",
+    "h5-manifest": "^1.0.0",
     "make-array": "^0.1.2",
     "through2": "^0.6.5"
   }

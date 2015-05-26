@@ -2,7 +2,7 @@ var through = require('through2');
 var gutil = require('gulp-util');
 
 var PluginError = gutil.PluginError;
-var appManifest = require('manifest-generator');
+var appManifest = require('h5-manifest');
 
 
 function gulpH5Manifest(file) {
