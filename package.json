@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/devWayne/gulp-h5-manifest",
   "dependencies": {
-    "app-manifest": "0.0.2",
+    "manifest-generator": "^1.0.0",
     "gulp-util": "^3.0.4",
+    "make-array": "^0.1.2",
     "through2": "^0.6.5"
   }
 }

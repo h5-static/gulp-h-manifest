@@ -1,9 +1,17 @@
 # gulp-h5-manifest
 
 ```
+var manifest = require('gulp-h5-manifest');
+var gulp = require('gulp');
+var glob = require("glob");
+
 gulp.task('h5manifest', function() {
-    return gulp.src('./app.appache')
-    .pipe(gulp-h5-manifest())
-    .pipe(gulp.dest(./app.appache))
+	glob("./handlebar/**/*.html",function(err,file){
+		file.forEach(function(item){
+			 gulp.src(item)
+			     .pipe(manifest(item))
+			     .pipe(gulp.dest(item.replace(/([\w-])*.html/,'')));
+		})
+	})
 }）
 ```
