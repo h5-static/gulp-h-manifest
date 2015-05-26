@@ -1,11 +1,11 @@
-# gulp-h5-manifest
+# gulp-manifest
 
 ```
-var manifest = require('gulp-h5-manifest');
+var manifest = require('gulp-manifest');
 var gulp = require('gulp');
 var glob = require("glob");
 
-gulp.task('h5manifest', function() {
+gulp.task('manifest', function() {
 	glob("./handlebar/**/*.html",function(err,file){
 		file.forEach(function(item){
 			 gulp.src(item)

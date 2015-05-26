@@ -10,7 +10,7 @@ function gulpH5Manifest(file) {
     var stream = through.obj(function(file, enc, cb) {
         if (file.isNull()) {
         }
-        file.contents = new Buffer(appManifest(file.contents.toString()));
+        file.contents = new Buffer(appManifest(file.contents.toString(),file.path));
         file.path = gutil.replaceExtension(file.path, '.appache');
         this.push(file);
 

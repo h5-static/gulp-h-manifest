@@ -1,6 +1,6 @@
 {
-  "name": "gulp-h5-manifest",
-  "version": "1.0.0",
+  "name": "gulp-manifest",
+  "version": "0.1.0",
   "description": "gulp h5 manifest plugin",
   "main": "index.js",
   "scripts": {
