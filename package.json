@@ -1,22 +1,26 @@
 {
-  "name": "gulp-manifest",
-  "version": "0.1.0",
-  "description": "gulp h5 manifest plugin",
+  "name": "gulp-h-manifest",
+  "version": "1.0.0",
+  "description": "``` var manifest = require('gulp-manifest'); var gulp = require('gulp'); var glob = require(\"glob\");",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devWayne/gulp-h5-manifest.git"
+    "url": "https://github.com/h5-static/gulp-h-manifest.git"
   },
-  "author": "",
-  "license": "MIT",
+  "keywords": [
+    "create",
+    "manifest"
+  ],
+  "author": "yyy",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/devWayne/gulp-h5-manifest/issues"
+    "url": "https://github.com/h5-static/gulp-h-manifest/issues"
   },
-  "homepage": "https://github.com/devWayne/gulp-h5-manifest",
-  "dependencies": {
+  "homepage": "https://github.com/h5-static/gulp-h-manifest",
+   "dependencies": {
     "manifest-generator": "^1.0.0",
     "gulp-util": "^3.0.4",
     "make-array": "^0.1.2",
