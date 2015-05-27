@@ -11,7 +11,7 @@ function gulpH5Manifest(file) {
         if (file.isNull()) {
         }
         file.contents = new Buffer(appManifest(file.contents.toString(),file.path));
-        file.path = gutil.replaceExtension(file.path, '.appache');
+        file.path = gutil.replaceExtension(file.path, '.appcache');
         this.push(file);
 
         return cb();

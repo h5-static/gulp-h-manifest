@@ -1,6 +1,6 @@
 {
   "name": "gulp-h-manifest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "``` var manifest = require('gulp-manifest'); var gulp = require('gulp'); var glob = require(\"glob\");",
   "main": "index.js",
   "scripts": {
