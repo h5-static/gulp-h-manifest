@@ -1,7 +1,7 @@
-# gulp-manifest
+# gulp-h-manifest
 
 ```
-var manifest = require('gulp-manifest');
+var manifest = require('gulp-h-manifest');
 var gulp = require('gulp');
 var glob = require("glob");
 
