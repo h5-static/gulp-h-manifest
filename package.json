@@ -22,7 +22,7 @@
   "homepage": "https://github.com/h5-static/gulp-h-manifest",
   "dependencies": {
     "gulp-util": "^3.0.4",
-    "h5-manifest": "^1.0.3",
+    "h5-manifest": "^1.0.7",
     "make-array": "^0.1.2",
     "through2": "^0.6.5"
   }
