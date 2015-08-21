@@ -1,6 +1,6 @@
 {
   "name": "gulp-h-manifest",
-  "version": "1.1.4",
+  "version": "1.1.7",
   "description": "``` var manifest = require('gulp-manifest'); var gulp = require('gulp'); var glob = require(\"glob\");",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   "homepage": "https://github.com/h5-static/gulp-h-manifest",
   "dependencies": {
     "gulp-util": "^3.0.4",
-    "h5-manifest": "^1.1.14",
+    "h5-manifest": "^1.1.17",
     "make-array": "^0.1.2",
     "through2": "^0.6.5"
   }
