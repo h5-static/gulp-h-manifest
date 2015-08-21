@@ -10,11 +10,14 @@ function gulpH5Manifest(file) {
     var stream = through.obj(function(file, enc, cb) {
         if (file.isNull()) {
         }
-        file.contents = new Buffer(appManifest(file.contents.toString(),file.path));
-        file.path = gutil.replaceExtension(file.path, '.appcache');
-        this.push(file);
+        var _this = this;
 
-        return cb();
+        appManifest(file.contents.toString(),file.path, function(str){
+        	file.contents = new Buffer(str);
+	        file.path = gutil.replaceExtension(file.path, '.appcache');
+	        _this.push(file);
+	        return cb();
+        })
     });
 
     return stream;
